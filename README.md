@@ -21,6 +21,15 @@ Repositório para criar meus projetos para o desafio de CSS
 Gostou da ideia? 
 [Clique aqui](https://github.com/MilenaCarecho/30diasDeCSS/issues/1) para participar 
 
-* ![Dia 01 - Animação de fundo e imagem com movimento](https://github.com/2dsant/30diasCSS/blob/main/img/dia01.gif?raw=true)
+#### Youtube Referencias dos desafios
+[Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog) - 
+[Creative Creations](https://www.youtube.com/channel/UCOKmVksbzoKJKmtu7rlEM1A) - 
+[DarkCode](https://www.youtube.com/channel/UCD3KVjbb7aq2OiOffuungzw)
 
 
+* ![Dia 01 - Animação de fundo e imagem com movimento](#id01)
+
+
+
+##  Desafio dia 01 - Animação de fundo e imagem com movimento <a name="id01"></a>
+![Dia 01](https://github.com/2dsant/30diasCSS/blob/main/img/dia01.gif?raw=true)
