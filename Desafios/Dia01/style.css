@@ -1,0 +1,213 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.container{
+padding: 0;
+margin: 0;
+height: 100vh;
+width: 100vw;
+background: rgb(2,0,36);
+background: linear-gradient(315deg, rgba(2,0,36,1) 0%, rgba(0,0,14,1) 100%);
+overflow: hidden;
+align-items: center;
+text-align: center;
+}
+.stars{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  box-shadow: 
+  50px 30px white,
+  10px 80px white,
+  80px 120px white,
+  300px 50px white,
+  950px 540px white,
+  600px 50px white,
+  750px 100px white,
+  650px 500px white,
+  550px 300px white,
+  850px 410px white,
+  1100px 500px rgb(255, 248, 148),
+  1200px 500px rgb(255, 248, 148),
+  80px 500px rgb(255, 248, 148),
+  100px 740px rgb(255, 248, 148),
+  560px 508px rgb(255, 248, 148),
+  955px 520px rgb(255, 248, 148),
+  500px 320px rgb(255, 248, 148),
+  1100px 40px rgb(255, 248, 148),
+  100px 140px rgb(255, 150, 150),
+  1050px 280px rgb(255, 150, 150),
+  810px 140px rgb(255, 150, 150),
+  850px 480px rgb(255, 150, 150),
+  750px 280px rgb(255, 150, 150),
+  800px 358px rgb(255, 150, 150),
+  85px 250px rgb(255, 150, 150);
+  animation: anim-stars 10s linear infinite;
+}
+.stars::after{
+  position: absolute;
+  top: -625px;
+  content: "";
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  box-shadow: 
+  50px 30px white,
+  10px 80px white,
+  80px 120px white,
+  300px 50px white,
+  950px 540px white,
+  600px 50px white,
+  750px 100px white,
+  650px 500px white,
+  550px 300px white,
+  850px 410px white,
+  1100px 500px rgb(255, 248, 148),
+  1200px 500px rgb(255, 248, 148),
+  80px 500px rgb(255, 248, 148),
+  100px 740px rgb(255, 248, 148),
+  560px 508px rgb(255, 248, 148),
+  955px 520px rgb(255, 248, 148),
+  500px 320px rgb(255, 248, 148),
+  1100px 40px rgb(255, 248, 148),
+  100px 140px rgb(255, 150, 150),
+  1050px 280px rgb(255, 150, 150),
+  810px 140px rgb(255, 150, 150),
+  850px 480px rgb(255, 150, 150),
+  750px 280px rgb(255, 150, 150),
+  800px 358px rgb(255, 150, 150),
+  85px 250px rgb(255, 150, 150);
+}
+.img-nebulosa img{
+  margin: 0;
+  width: 800px;
+  opacity: .2;
+  animation: anim-nebula 120s linear infinite;
+}
+.img-foguete img{
+  width: 80px;
+}
+.img-foguete{
+  position: relative;
+  top: 350px;
+  animation: anim-foguete .2s ease infinite;
+}
+.container .img-foguete::before{
+  content: "";
+  position: absolute;
+  bottom: -88px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 100px;
+  background: linear-gradient(#ffb477, transparent);
+}
+.container .img-foguete::after{
+  content: "";
+  position: absolute;
+  bottom: -88px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 100px;
+  background: linear-gradient(#ffb477, transparent);
+  filter: blur(20px);
+}
+.stars2{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  box-shadow: 
+  50px 30px white,
+  10px 80px white,
+  80px 120px white,
+  300px 50px white,
+  950px 540px white,
+  600px 50px white,
+  750px 100px white,
+  650px 500px white,
+  550px 300px white,
+  850px 410px white,
+  1100px 500px rgb(255, 248, 148),
+  1200px 500px rgb(255, 248, 148),
+  80px 500px rgb(255, 248, 148),
+  100px 740px rgb(255, 248, 148),
+  560px 508px rgb(255, 248, 148),
+  955px 520px rgb(255, 248, 148),
+  500px 320px rgb(255, 248, 148),
+  1100px 40px rgb(255, 248, 148),
+  100px 140px rgb(255, 150, 150),
+  1050px 280px rgb(255, 150, 150),
+  810px 140px rgb(255, 150, 150),
+  850px 480px rgb(255, 150, 150),
+  750px 280px rgb(255, 150, 150),
+  800px 358px rgb(255, 150, 150),
+  85px 250px rgb(255, 150, 150);
+  animation: anim-stars 15s linear infinite;
+}
+.stars2::after{
+  position: absolute;
+  top: -625px;
+  content: "";
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  box-shadow: 
+  50px 30px white,
+  10px 80px white,
+  80px 120px white,
+  300px 50px white,
+  950px 540px white,
+  600px 50px white,
+  750px 100px white,
+  650px 500px white,
+  550px 300px white,
+  850px 410px white,
+  1100px 500px rgb(255, 248, 148),
+  1200px 500px rgb(255, 248, 148),
+  80px 500px rgb(255, 248, 148),
+  100px 740px rgb(255, 248, 148),
+  560px 508px rgb(255, 248, 148),
+  955px 520px rgb(255, 248, 148),
+  500px 320px rgb(255, 248, 148),
+  1100px 40px rgb(255, 248, 148),
+  100px 140px rgb(255, 150, 150),
+  1050px 280px rgb(255, 150, 150),
+  810px 140px rgb(255, 150, 150),
+  850px 480px rgb(255, 150, 150),
+  750px 280px rgb(255, 150, 150),
+  800px 358px rgb(255, 150, 150),
+  85px 250px rgb(255, 150, 150);
+}
+
+@keyframes anim-stars {
+  from{
+    transform: translateY(0px);
+  }
+  to{
+    transform: translateY(625px);
+    }
+  }
+@keyframes anim-nebula{
+    from{
+      transform: rotate(0deg);
+    }
+    to{
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes anim-foguete{
+    from{
+      transform: translateY(-2px);
+    }
+    to{
+      transform: translateY(2px);
+    }
+  }
