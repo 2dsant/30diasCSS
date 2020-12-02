@@ -27,7 +27,7 @@ Gostou da ideia?
 [DarkCode](https://www.youtube.com/channel/UCD3KVjbb7aq2OiOffuungzw)
 
 
-* ![Dia 01 - Animação de fundo e imagem com movimento](#id01)
+* [Dia 01 - Animação de fundo e imagem com movimento](#id01)
 
 
 
