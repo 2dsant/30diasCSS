@@ -21,6 +21,6 @@ Repositório para criar meus projetos para o desafio de CSS
 Gostou da ideia? 
 [Clique aqui](https://github.com/MilenaCarecho/30diasDeCSS/issues/1) para participar 
 
-* [Dia 01 - Animação de fundo e imagem com movimento](https://www.chevrolet.com.br/content/dam/chevrolet/mercosur/brazil/portuguese/index/cars/cars-subcontent/segmento-carros/02-images/cruze-premier.png?imwidth=960)
+* ![Dia 01 - Animação de fundo e imagem com movimento](https://github.com/2dsant/30diasCSS/blob/main/img/dia01.gif?raw=true)
 
 
