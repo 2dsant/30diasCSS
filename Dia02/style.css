@@ -20,8 +20,8 @@ body{
 .loader{
   padding: 10px;
   position: absolute;
-  width: 100px;
-  height: 100px;
+  width: 250px;
+  height: 250px;
   background: transparent;
   border-radius: 50%;
   border-top: 2px solid rgb(255, 81, 0);
@@ -41,7 +41,7 @@ body{
 }
 
 span {
-  font-size: 20px;
+  font-size: 30px;
   line-height: 200px;
   animation: sizetext .5s linear infinite alternate;
 }
