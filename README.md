@@ -28,6 +28,7 @@ Gostou da ideia?
 
 
 * [Dia 01 - Animação de fundo e imagem com movimento](#id01)
+* [Dia 02 - Animação de Loading](#id02)
 
 
 
@@ -35,3 +36,9 @@ Gostou da ideia?
 ![Dia 01](https://github.com/2dsant/30diasCSS/blob/main/img/dia01.gif?raw=true)
 
 [Meu código](https://github.com/2dsant/30diasCSS/tree/main/Dia01)
+
+
+##  Desafio dia 02 - Animação de Loading <a name="id02"></a>
+![Dia 01](https://github.com/2dsant/30diasCSS/blob/main/img/dia02.gif)
+
+[Meu código](https://github.com/2dsant/30diasCSS/tree/main/Dia02)
