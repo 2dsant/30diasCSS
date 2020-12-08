@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+body{
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 3em;
+  overflow: hidden;
+  width: 100%;
+}
+.container{
+  background-color: #d80031;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+}
+.div-main:nth-child(1){
+position: relative;
+width: 50%;
+height: 100vh;
+background-image: url(img/lua.png);
+background-size: cover;
+background-position: center;
+background-repeat: no no-repeat;
+overflow: hidden;
+}
+.div-main:nth-child(2){
+  position: relative;
+  width: 50%;
+  height: 100vh;
+  overflow: hidden;
+}
+#text1{
+  -webkit-text-stroke-color: #ffffff;
+  -webkit-text-stroke: 2px;
+  -webkit-text-fill-color: transparent;
+  left: 100%;
+    animation: slid 5s linear infinite alternate;
+
+}
+h1{
+  position: absolute;
+  white-space: nowrap;
+  line-height: 100vh;
+  animation: slid 5s linear infinite alternate;
+}
+
+@keyframes slid {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100vh);
+    }
+}
