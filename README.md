@@ -30,6 +30,7 @@ Gostou da ideia?
 * [Dia 01 - Animação de fundo e imagem com movimento](#id01)
 * [Dia 02 - Animação de Loading](#id02)
 * [Dia 03 - Animação de texto que muda de cor ao entrar em outro fundo](#id02)
+* [Dia 04 - Fundo animado - Gradiente](#id02)
 
 
 
@@ -45,8 +46,13 @@ Gostou da ideia?
 [Meu código](https://github.com/2dsant/30diasCSS/tree/main/Dia02)
 
 
-
 ##  Desafio dia 03 - Animação de texto que muda de cor ao entrar em outro fundo <a name="id03"></a>
 ![Dia 03](https://github.com/2dsant/30diasCSS/blob/main/img/dia03.gif)
 
 [Meu código](https://github.com/2dsant/30diasCSS/tree/main/dia03)
+
+
+##  Desafio dia 04 - Fundo animado - Gradiente <a name="id04"></a>
+![Dia 04](https://github.com/2dsant/30diasCSS/blob/main/dia04/img/dia04.gif)
+
+[Meu código](https://github.com/2dsant/30diasCSS/tree/main/dia04)
