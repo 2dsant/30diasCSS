@@ -29,8 +29,9 @@ Gostou da ideia?
 
 * [Dia 01 - Animação de fundo e imagem com movimento](#id01)
 * [Dia 02 - Animação de Loading](#id02)
-* [Dia 03 - Animação de texto que muda de cor ao entrar em outro fundo](#id02)
-* [Dia 04 - Fundo animado - Gradiente](#id02)
+* [Dia 03 - Animação de texto que muda de cor ao entrar em outro fundo](#id03)
+* [Dia 04 - Fundo animado - Gradiente](#id04)
+* [Dia 05 - Animated Social Cards](#id05)
 
 
 
@@ -56,3 +57,9 @@ Gostou da ideia?
 ![Dia 04](https://github.com/2dsant/30diasCSS/blob/main/dia04/img/dia04.gif)
 
 [Meu código](https://github.com/2dsant/30diasCSS/tree/main/dia04)
+
+
+##  Desafio dia 05 - Animated Social Cards <a name="id05"></a>
+![Dia 05](https://github.com/2dsant/30diasCSS/blob/main/img/dia05.gif)
+
+[Meu código](https://github.com/2dsant/30diasCSS/tree/main/dia05)
