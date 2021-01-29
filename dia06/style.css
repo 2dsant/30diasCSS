@@ -1,0 +1,102 @@
+body{
+    overflow: hidden;
+    height: 100vh;
+    background: #262626;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+small{
+    align-self: flex-start;
+    margin: 5px;
+}
+a{
+    text-decoration: none;
+    color: rgb(38, 168, 255);
+    align-self: flex-start;
+    padding: 10px 0;
+}
+label{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    align-self: flex-start;
+}
+input{
+    color: white;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.04);
+    border: none;
+    outline: none;
+    box-shadow: 7px 5px 11px 0px rgb(0 0 0 / 30%);
+    transition: linear .1s;
+}
+input:hover{
+    background: rgb(0, 0, 0, .2);
+}
+
+form{
+    width: 80%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    background: rgba(255, 255, 255, 0.04);
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    height: 100%;
+    width: 400px;
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+    color: white;
+    box-shadow: 8px 10px 9px 0px rgb(0 0 0 / 30%);
+}
+.container{
+    height: 30%;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container::before{
+    content: '';
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-image: linear-gradient(to right top, #00c896, #00c090, #00b88a, #00b185, #00a97f);    bottom: 50%;
+    left: 55%;
+    border-radius: 50%;
+}
+.container::after{
+    content: '';
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-image: linear-gradient(to right top, #00c896, #00c090, #00b88a, #00b185, #00a97f);    border-radius: 50%;
+    bottom: 0;
+    right: 81%;
+}
+button{
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    margin: 10px auto;
+    cursor: pointer;
+    border: 1px solid #00c8966b;
+    color: #00C896;
+    background: transparent;
+    border-radius: 10px;
+    transition: linear .1s;
+}
+button:hover{
+    background: rgb(0, 0, 0, .2);
+}
