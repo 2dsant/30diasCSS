@@ -32,6 +32,8 @@ Gostou da ideia?
 * [Dia 03 - Animação de texto que muda de cor ao entrar em outro fundo](#id03)
 * [Dia 04 - Fundo animado - Gradiente](#id04)
 * [Dia 05 - Animated Social Cards](#id05)
+* [Dia 06 - Login Glassmorphism](#id06)
+
 
 
 
@@ -63,3 +65,9 @@ Gostou da ideia?
 ![Dia 05](https://github.com/2dsant/30diasCSS/blob/main/img/dia05.gif)
 
 [Meu código](https://github.com/2dsant/30diasCSS/tree/main/dia05)
+
+
+##  Desafio dia 06 - Login Glassmorphism <a name="id06"></a>
+![Dia 06](https://github.com/2dsant/30diasCSS/blob/main/img/dia06.gif)
+
+[Meu código](https://github.com/2dsant/30diasCSS/tree/main/dia06)
