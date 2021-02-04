@@ -33,6 +33,7 @@ Gostou da ideia?
 * [Dia 04 - Fundo animado - Gradiente](#id04)
 * [Dia 05 - Animated Social Cards](#id05)
 * [Dia 06 - Login Glassmorphism](#id06)
+* [Dia 07 - Loading animado 3D](#id07)
 
 
 
@@ -71,3 +72,9 @@ Gostou da ideia?
 ![Dia 06](https://github.com/2dsant/30diasCSS/blob/main/img/dia06.gif)
 
 [Meu código](https://github.com/2dsant/30diasCSS/tree/main/dia06)
+
+
+##  Desafio dia 07 - Loading animado 3D <a name="id07"></a>
+![Dia 06](https://github.com/2dsant/30diasCSS/blob/main/img/dia07.gif)
+
+[Meu código](https://github.com/2dsant/30diasCSS/tree/main/dia07)
