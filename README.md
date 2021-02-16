@@ -34,6 +34,7 @@ Gostou da ideia?
 * [Dia 05 - Animated Social Cards](#id05)
 * [Dia 06 - Login Glassmorphism](#id06)
 * [Dia 07 - Loading animado 3D](#id07)
+* [Dia 08 - Botão com efeito neon](#id08)
 
 
 
@@ -78,3 +79,9 @@ Gostou da ideia?
 ![Dia 06](https://github.com/2dsant/30diasCSS/blob/main/img/dia07.gif)
 
 [Meu código](https://github.com/2dsant/30diasCSS/tree/main/dia07)
+
+
+##  Desafio dia 08 - Botão com efeito neon <a name="id08"></a>
+![Dia 06](https://github.com/2dsant/30diasCSS/blob/main/img/dia08.gif)
+
+[Meu código](https://github.com/2dsant/30diasCSS/tree/main/dia08)
