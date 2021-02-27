@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #edf1f4;
+}
+
+.loader{
+    position: relative;
+    display: flex;
+}
+
+.loader span {
+    width: 50px;
+    height: 300px;
+    margin: 0 20px;
+    animation: animate 1.4s linear infinite;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.05, #edf1f4));
+
+    box-shadow: 15px 15px 20px rgb(0 0 0 / 10%), 
+                -15px -15px 20px #fff, 
+                inset -5px -5px 5px rgb(255 255 255 / 50%), 
+                inset 5px 5px 5px rgb(197 197 197 / 50%);
+}
+
+.loader span:nth-child(1){
+    animation-delay: 0s;
+}
+
+.loader span:nth-child(2){
+    animation-delay: 0.2s;
+}
+
+.loader span:nth-child(3){
+    animation-delay: 0.4s;
+}
+
+.loader span:nth-child(4){
+    animation-delay: 0.6s;
+}
+
+.loader span:nth-child(5){
+    animation-delay: 0.8s;
+}
+
+.loader span:nth-child(6){
+    animation-delay: 1s;
+}
+
+.loader span:nth-child(7){
+    animation-delay: 1.2s;
+}
+
+@keyframes animate {
+    0%
+    {
+        box-shadow: 15px 15px 20px rgb(0 0 0 / 10%), 
+                    -15px -15px 20px #fff, 
+                    inset -5px -5px 5px rgb(255 255 255 / 50%), 
+                    inset 5px 5px 5px rgb(197 197 197 / 50%);
+        opacity: 0;
+        transform: translateX(-50px) scale(1);
+    }
+    50%
+    {
+        box-shadow: 15px 15px 20px rgb(0 0 0 / 10%), 
+                    -15px -15px 20px #fff, 
+                    inset -5px -5px 5px rgb(255 255 255 / 50%), 
+                    inset 5px 5px 5px rgb(181 181 181 / 50%);
+        opacity: 1;
+        transform: translateX(0px) scale(1.2);
+    }
+    100%
+    {
+        box-shadow: 15px 15px 20px rgb(0 0 0 / 10%), 
+                    -15px -15px 20px #fff, 
+                    inset -5px -5px 5px rgb(255 255 255 / 50%), 
+                    inset 5px 5px 5px rgb(197 197 197 / 50%);
+        opacity: 0;
+        transform: translateX(50px) scale(1);
+    }
+}
